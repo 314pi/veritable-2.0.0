@@ -1,0 +1,1867 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="veritable" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\modules\;CMake Files\ima\;CMake Files\ima\data\;CMake Files\ica\;CMake Files\ica\win32\;CMake Files\imc\;CMake Files\lib\;CMake Files\..\;CMake Files\..\qtcreator-build\;CMake Files\..\qtcreator-build\lib\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="cs.qm">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 cs.qm" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="cs.ts">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 cs.ts" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="de.qm">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 de.qm" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="de.ts">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 de.ts" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="dist">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 dist" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="el.qm">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 el.qm" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="el.ts">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 el.ts" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="es.qm">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 es.qm" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="es.ts">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 es.ts" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="fi.qm">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 fi.qm" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="fi.ts">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 fi.ts" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="finalize-locales">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 finalize-locales" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="fr.qm">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 fr.qm" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="fr.ts">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 fr.ts" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="it.qm">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 it.qm" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="it.ts">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 it.ts" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="nl.qm">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 nl.qm" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="nl.ts">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 nl.ts" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="nn.qm">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 nn.qm" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="nn.ts">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 nn.ts" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="package">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 package" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="package_source">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 package_source" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pl.qm">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 pl.qm" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pl.ts">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 pl.ts" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pt_br.qm">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 pt_br.qm" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pt_br.ts">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 pt_br.ts" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ru.qm">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 ru.qm" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ru.ts">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 ru.ts" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sk.qm">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 sk.qm" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sk.ts">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 sk.ts" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sl.qm">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 sl.qm" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sl.ts">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 sl.ts" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sv.qm">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 sv.qm" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sv.ts">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 sv.ts" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tr.qm">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 tr.qm" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tr.ts">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 tr.ts" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="uk.qm">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 uk.qm" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="uk.ts">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 uk.ts" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="update-locales">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 update-locales" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="vi.qm">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 vi.qm" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="vi.ts">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 vi.ts" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="win-nsi">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 win-nsi" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="zh_cn.qm">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 zh_cn.qm" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="zh_cn.ts">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 zh_cn.ts" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="zh_tw.qm">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 zh_tw.qm" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="zh_tw.ts">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 zh_tw.ts" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="VeritableCore">
+         <Option output="D:/quantrong/iTalc/qtcreator-build/lib/VeritableCore.dll" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build/lib" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_DLL" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_XML_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DLIBVNCSERVER_HAVE_LIBZ" />
+            <Add option="-DLIBVNCSERVER_HAVE_LIBJPEG" />
+            <Add option="-DBUILD_ICA" />
+            <Add option="-DBUILD_LIBRARY" />
+            <Add directory="C:/Program Files (x86)/GnuWin32/include" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtCore" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtGui" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtNetwork" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtXml" />
+            <Add directory="D:/quantrong/iTalc/qtcreator-build" />
+            <Add directory="D:/quantrong/iTalc/qtcreator-build/lib" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/../ica/x11/common" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../mingw32/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include-fixed" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++/backward" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/lib/Makefile&quot;  VERBOSE=1 VeritableCore" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/lib/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/lib/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="VeritableCore/fast">
+         <Option output="D:/quantrong/iTalc/qtcreator-build/lib/VeritableCore.dll" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build/lib" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_DLL" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_XML_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DLIBVNCSERVER_HAVE_LIBZ" />
+            <Add option="-DLIBVNCSERVER_HAVE_LIBJPEG" />
+            <Add option="-DBUILD_ICA" />
+            <Add option="-DBUILD_LIBRARY" />
+            <Add directory="C:/Program Files (x86)/GnuWin32/include" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtCore" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtGui" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtNetwork" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtXml" />
+            <Add directory="D:/quantrong/iTalc/qtcreator-build" />
+            <Add directory="D:/quantrong/iTalc/qtcreator-build/lib" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/../ica/x11/common" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../mingw32/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include-fixed" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++/backward" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/lib/Makefile&quot;  VERBOSE=1 VeritableCore/fast" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/lib/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/lib/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="JavaViewer">
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build/ica" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ica/Makefile&quot;  VERBOSE=1 JavaViewer" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ica/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ica/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ica/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ica">
+         <Option output="D:/quantrong/iTalc/qtcreator-build/ica/ica.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_DLL" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_XML_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DLIBVNCSERVER_HAVE_LIBZ" />
+            <Add option="-DLIBVNCSERVER_HAVE_LIBJPEG" />
+            <Add option="-DLIBVNCSERVER_PACKAGE_STRING=&quot;vERITABLE 2.0.0&quot;" />
+            <Add option="-DVNCSHARED" />
+            <Add option="-DFOREVER" />
+            <Add option="-DNOREPEAT=0" />
+            <Add option="-DNOPW=1" />
+            <Add option="-DREMOTE_CONTROL=0" />
+            <Add option="-DEXTERNAL_COMMANDS=0" />
+            <Add option="-DFILEXFER=0" />
+            <Add option="-DNOGUI" />
+            <Add option="-DSMALL_FOOTPRINT=3" />
+            <Add option="-DX11VNC_IPV6=0" />
+            <Add option="-DPTW32_STATIC_LIB" />
+            <Add option="-DTLS=__thread" />
+            <Add option="-DX11VNC_USLEEP" />
+            <Add option="-DULTRAVNC_VERITABLE_SUPPORT" />
+            <Add option="-DLIBVNCSERVER_NEED_INADDR_T" />
+            <Add option="-DBUILD_ICA" />
+            <Add directory="C:/Program Files (x86)/GnuWin32/include" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtCore" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtGui" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtNetwork" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtXml" />
+            <Add directory="D:/quantrong/iTalc/qtcreator-build" />
+            <Add directory="D:/quantrong/iTalc/qtcreator-build/ica" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/omnithread" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/common" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncserver" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/x11vnc" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../mingw32/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include-fixed" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++/backward" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ica/Makefile&quot;  VERBOSE=1 ica" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ica/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ica/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ica/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ica/fast">
+         <Option output="D:/quantrong/iTalc/qtcreator-build/ica/ica.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_DLL" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_XML_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DLIBVNCSERVER_HAVE_LIBZ" />
+            <Add option="-DLIBVNCSERVER_HAVE_LIBJPEG" />
+            <Add option="-DLIBVNCSERVER_PACKAGE_STRING=&quot;vERITABLE 2.0.0&quot;" />
+            <Add option="-DVNCSHARED" />
+            <Add option="-DFOREVER" />
+            <Add option="-DNOREPEAT=0" />
+            <Add option="-DNOPW=1" />
+            <Add option="-DREMOTE_CONTROL=0" />
+            <Add option="-DEXTERNAL_COMMANDS=0" />
+            <Add option="-DFILEXFER=0" />
+            <Add option="-DNOGUI" />
+            <Add option="-DSMALL_FOOTPRINT=3" />
+            <Add option="-DX11VNC_IPV6=0" />
+            <Add option="-DPTW32_STATIC_LIB" />
+            <Add option="-DTLS=__thread" />
+            <Add option="-DX11VNC_USLEEP" />
+            <Add option="-DULTRAVNC_VERITABLE_SUPPORT" />
+            <Add option="-DLIBVNCSERVER_NEED_INADDR_T" />
+            <Add option="-DBUILD_ICA" />
+            <Add directory="C:/Program Files (x86)/GnuWin32/include" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtCore" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtGui" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtNetwork" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtXml" />
+            <Add directory="D:/quantrong/iTalc/qtcreator-build" />
+            <Add directory="D:/quantrong/iTalc/qtcreator-build/ica" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/omnithread" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/common" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncserver" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/x11vnc" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../mingw32/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include-fixed" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++/backward" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ica/Makefile&quot;  VERBOSE=1 ica/fast" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ica/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ica/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ica/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="authSSP">
+         <Option output="D:/quantrong/iTalc/qtcreator-build/ica/win32/authSSP.dll" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build/ica/win32" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_DLL" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_XML_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DLIBVNCSERVER_HAVE_LIBZ" />
+            <Add option="-DLIBVNCSERVER_HAVE_LIBJPEG" />
+            <Add option="-DLIBVNCSERVER_PACKAGE_STRING=&quot;vERITABLE 2.0.0&quot;" />
+            <Add option="-DVNCSHARED" />
+            <Add option="-DFOREVER" />
+            <Add option="-DNOREPEAT=0" />
+            <Add option="-DNOPW=1" />
+            <Add option="-DREMOTE_CONTROL=0" />
+            <Add option="-DEXTERNAL_COMMANDS=0" />
+            <Add option="-DFILEXFER=0" />
+            <Add option="-DNOGUI" />
+            <Add option="-DSMALL_FOOTPRINT=3" />
+            <Add option="-DAUTHSSP_EXPORTS" />
+            <Add option="-DULTRAVNC_VERITABLE_SUPPORT" />
+            <Add directory="C:/Program Files (x86)/GnuWin32/include" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtCore" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtGui" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtNetwork" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtXml" />
+            <Add directory="D:/quantrong/iTalc/qtcreator-build" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/common" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncserver" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/x11vnc" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../mingw32/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include-fixed" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++/backward" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ica/win32/Makefile&quot;  VERBOSE=1 authSSP" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ica/win32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ica/win32/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ica/win32/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="authSSP/fast">
+         <Option output="D:/quantrong/iTalc/qtcreator-build/ica/win32/authSSP.dll" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build/ica/win32" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_DLL" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_XML_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DLIBVNCSERVER_HAVE_LIBZ" />
+            <Add option="-DLIBVNCSERVER_HAVE_LIBJPEG" />
+            <Add option="-DLIBVNCSERVER_PACKAGE_STRING=&quot;vERITABLE 2.0.0&quot;" />
+            <Add option="-DVNCSHARED" />
+            <Add option="-DFOREVER" />
+            <Add option="-DNOREPEAT=0" />
+            <Add option="-DNOPW=1" />
+            <Add option="-DREMOTE_CONTROL=0" />
+            <Add option="-DEXTERNAL_COMMANDS=0" />
+            <Add option="-DFILEXFER=0" />
+            <Add option="-DNOGUI" />
+            <Add option="-DSMALL_FOOTPRINT=3" />
+            <Add option="-DAUTHSSP_EXPORTS" />
+            <Add option="-DULTRAVNC_VERITABLE_SUPPORT" />
+            <Add directory="C:/Program Files (x86)/GnuWin32/include" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtCore" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtGui" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtNetwork" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtXml" />
+            <Add directory="D:/quantrong/iTalc/qtcreator-build" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/common" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncserver" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/x11vnc" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../mingw32/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include-fixed" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++/backward" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ica/win32/Makefile&quot;  VERBOSE=1 authSSP/fast" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ica/win32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ica/win32/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ica/win32/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="vnchooks">
+         <Option output="D:/quantrong/iTalc/qtcreator-build/ica/win32/vnchooks.dll" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build/ica/win32" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_DLL" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_XML_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DLIBVNCSERVER_HAVE_LIBZ" />
+            <Add option="-DLIBVNCSERVER_HAVE_LIBJPEG" />
+            <Add option="-DLIBVNCSERVER_PACKAGE_STRING=&quot;vERITABLE 2.0.0&quot;" />
+            <Add option="-DVNCSHARED" />
+            <Add option="-DFOREVER" />
+            <Add option="-DNOREPEAT=0" />
+            <Add option="-DNOPW=1" />
+            <Add option="-DREMOTE_CONTROL=0" />
+            <Add option="-DEXTERNAL_COMMANDS=0" />
+            <Add option="-DFILEXFER=0" />
+            <Add option="-DNOGUI" />
+            <Add option="-DSMALL_FOOTPRINT=3" />
+            <Add option="-DAUTHSSP_EXPORTS" />
+            <Add option="-DULTRAVNC_VERITABLE_SUPPORT" />
+            <Add directory="C:/Program Files (x86)/GnuWin32/include" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtCore" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtGui" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtNetwork" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtXml" />
+            <Add directory="D:/quantrong/iTalc/qtcreator-build" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/common" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncserver" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/x11vnc" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../mingw32/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include-fixed" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++/backward" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ica/win32/Makefile&quot;  VERBOSE=1 vnchooks" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ica/win32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ica/win32/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ica/win32/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="vnchooks/fast">
+         <Option output="D:/quantrong/iTalc/qtcreator-build/ica/win32/vnchooks.dll" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/quantrong/iTalc/qtcreator-build/ica/win32" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_DLL" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_XML_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DLIBVNCSERVER_HAVE_LIBZ" />
+            <Add option="-DLIBVNCSERVER_HAVE_LIBJPEG" />
+            <Add option="-DLIBVNCSERVER_PACKAGE_STRING=&quot;vERITABLE 2.0.0&quot;" />
+            <Add option="-DVNCSHARED" />
+            <Add option="-DFOREVER" />
+            <Add option="-DNOREPEAT=0" />
+            <Add option="-DNOPW=1" />
+            <Add option="-DREMOTE_CONTROL=0" />
+            <Add option="-DEXTERNAL_COMMANDS=0" />
+            <Add option="-DFILEXFER=0" />
+            <Add option="-DNOGUI" />
+            <Add option="-DSMALL_FOOTPRINT=3" />
+            <Add option="-DAUTHSSP_EXPORTS" />
+            <Add option="-DULTRAVNC_VERITABLE_SUPPORT" />
+            <Add directory="C:/Program Files (x86)/GnuWin32/include" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtCore" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtGui" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtNetwork" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtXml" />
+            <Add directory="D:/quantrong/iTalc/qtcreator-build" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/common" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncserver" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/x11vnc" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../mingw32/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include-fixed" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++/backward" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ica/win32/Makefile&quot;  VERBOSE=1 vnchooks/fast" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ica/win32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ica/win32/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ica/win32/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="veritable">
+         <Option output="D:/quantrong/iTalc/qtcreator-build/ima/veritable.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_DLL" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_XML_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DLIBVNCSERVER_HAVE_LIBZ" />
+            <Add option="-DLIBVNCSERVER_HAVE_LIBJPEG" />
+            <Add directory="C:/Program Files (x86)/GnuWin32/include" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtCore" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtGui" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtNetwork" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtXml" />
+            <Add directory="D:/quantrong/iTalc/qtcreator-build" />
+            <Add directory="D:/quantrong/iTalc/qtcreator-build/ima" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/src" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../mingw32/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include-fixed" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++/backward" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ima/Makefile&quot;  VERBOSE=1 veritable" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ima/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ima/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ima/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="veritable/fast">
+         <Option output="D:/quantrong/iTalc/qtcreator-build/ima/veritable.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_DLL" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_XML_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DLIBVNCSERVER_HAVE_LIBZ" />
+            <Add option="-DLIBVNCSERVER_HAVE_LIBJPEG" />
+            <Add directory="C:/Program Files (x86)/GnuWin32/include" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtCore" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtGui" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtNetwork" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtXml" />
+            <Add directory="D:/quantrong/iTalc/qtcreator-build" />
+            <Add directory="D:/quantrong/iTalc/qtcreator-build/ima" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/src" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../mingw32/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include-fixed" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++/backward" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ima/Makefile&quot;  VERBOSE=1 veritable/fast" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ima/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ima/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/ima/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="imc">
+         <Option output="D:/quantrong/iTalc/qtcreator-build/imc/imc.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_DLL" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_XML_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DLIBVNCSERVER_HAVE_LIBZ" />
+            <Add option="-DLIBVNCSERVER_HAVE_LIBJPEG" />
+            <Add directory="C:/Program Files (x86)/GnuWin32/include" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtCore" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtGui" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtNetwork" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtXml" />
+            <Add directory="D:/quantrong/iTalc/qtcreator-build" />
+            <Add directory="D:/quantrong/iTalc/qtcreator-build/imc" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/imc/src" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../mingw32/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include-fixed" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++/backward" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/imc/Makefile&quot;  VERBOSE=1 imc" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/imc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/imc/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/imc/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="imc/fast">
+         <Option output="D:/quantrong/iTalc/qtcreator-build/imc/imc.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_DLL" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_XML_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DLIBVNCSERVER_HAVE_LIBZ" />
+            <Add option="-DLIBVNCSERVER_HAVE_LIBJPEG" />
+            <Add directory="C:/Program Files (x86)/GnuWin32/include" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtCore" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtGui" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtNetwork" />
+            <Add directory="C:/QtSDK/Desktop/Qt/4.8.0/mingw/include/QtXml" />
+            <Add directory="D:/quantrong/iTalc/qtcreator-build" />
+            <Add directory="D:/quantrong/iTalc/qtcreator-build/imc" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/imc/src" />
+            <Add directory="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../mingw32/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include-fixed" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++/backward" />
+            <Add directory="c:\qtsdk\mingw\bin\../lib/gcc/mingw32/4.4.0/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/imc/Makefile&quot;  VERBOSE=1 imc/fast" />
+            <CompileFile command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/imc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/imc/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/QtSDK/mingw/bin/mingw32-make.exe -f &quot;D:/quantrong/iTalc/qtcreator-build/imc/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/AccessDialogSlave.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/DemoClient.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/DemoClientSlave.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/DemoServer.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/DemoServerMaster.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/DemoServerSlave.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/DesktopAccessPermission.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/IcaMain.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/InputLockSlave.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/LocalSystemIca.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/MessageBoxSlave.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/RfbLZORLE.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/RfbVeritableCursor.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/ScreenLockSlave.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/ScreenLockSlaveLauncher.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/SystemTrayIconSlave.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/VeritableCoreServer.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/VeritableSlaveManager.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/VeritableVncServer.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/WindowsService.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/addon/ms-logon/authSSP/EventLogging.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/addon/ms-logon/authSSP/GenClientServerContext.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/addon/ms-logon/authSSP/authSSP.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/addon/ms-logon/authSSP/vncAccessControl.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/addon/ms-logon/authSSP/vncSSP.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/common/Clipboard.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/common/win32_helpers.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/rdr/ZlibInStream.cxx">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/rdr/ZlibOutStream.cxx">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/ultravnc-veritable.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/ultravnc.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/DSMPlugin/DSMPlugin.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/omnithread/nt.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/vnchooks/SharedData.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/vnchooks/VNCHooks.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/CpuUsage.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/Dtwinver.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/HideDesktop.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/IPC.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/Timer.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/black_layered.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/buildtime.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/d3des.c">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/getinfo.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/helpers.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/httpconnect.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/inifile.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/read_write_ini.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/rfbRegion_win32.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/rfbUpdateTracker.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/security.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/service.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/service_motor.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/stdhdrs.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/translate.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/videodriver.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/videodrivercheck.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vistahook.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncDesktopSW.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncEncodeTight.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncEncodeUltra.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncEncodeUltra2.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncEncodeZlib.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncEncodeZlibHex.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncListDlg.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncMultiMonitor.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncOSVersion.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncabout.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncacceptdialog.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncauth.c">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncbuffer.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncconndialog.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncdesktopsink.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncdesktopthread.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncencodecorre.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncencodehext.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncencoder.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncencoderCursor.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncencoderre.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncencodezrle.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vnchttpconnect.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncinsthandler.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vnckeymap.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vnclog.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncmenu.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncntlm.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncproperties.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncpropertiesPoll.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncserver.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncservice.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncsetauth.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncsockconnect.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vnctimedmsgbox.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/winvnc.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/common/d3des.c">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/common/minilzo.c">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/common/vncauth.c">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/cursor.c">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/listen.c">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/rfbproto.c">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/sockets.c">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/vncviewer.c">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncserver/auth.c">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncserver/cargs.c">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncserver/corre.c">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncserver/cursor.c">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncserver/cutpaste.c">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncserver/draw.c">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncserver/font.c">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncserver/hextile.c">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncserver/httpd.c">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncserver/main.c">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncserver/rfbregion.c">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncserver/rfbserver.c">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncserver/rre.c">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncserver/scale.c">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncserver/selbox.c">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncserver/sockets.c">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncserver/stats.c">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncserver/tight.c">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncserver/translate.c">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncserver/ultra.c">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncserver/zlib.c">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncserver/zrle.c">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncserver/zrleoutstream.c">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncserver/zrlepalettehelper.c">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/x11vnc.c">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/src/ClassroomManager.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/src/Client.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/src/ConfigWidget.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/src/Dialogs.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/src/MainToolBar.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/src/MainWindow.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/src/OverviewWidget.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/src/RemoteControlWidget.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/src/RunCommandsDialog.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/src/SideBar.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/src/SideBarWidget.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/src/SnapshotList.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/src/ToolButton.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/src/main.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/imc/src/FileSystemBrowser.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/imc/src/ImcCore.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/imc/src/KeyDirectoriesPage.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/imc/src/KeyFileAssistant.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/imc/src/KeyFileAssistantModePage.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/imc/src/LogonGroupEditor.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/imc/src/MainWindow.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/imc/src/SystemConfigurationModifier.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/imc/src/Win32AclEditor.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/imc/src/main.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/src/AboutDialog.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/src/AuthenticationCredentials.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/src/Configuration/LocalStore.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/src/Configuration/Object.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/src/Configuration/XmlStore.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/src/DecoratedMessageBox.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/src/DsaKey.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/src/FastQImage.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/src/Inject.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/src/Ipc/Core.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/src/Ipc/Master.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/src/Ipc/QtSlaveLauncher.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/src/Ipc/Slave.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/src/Ipc/SlaveLauncher.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/src/LocalSystem.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/src/LockWidget.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/src/Logger.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/src/LogonAuthentication.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/src/PasswordDialog.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/src/ProgressWidget.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/src/Snapshot.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/src/SystemKeyTrapper.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/src/VeritableConfiguration.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/src/VeritableCore.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/src/VeritableCoreConnection.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/src/VeritableVncConnection.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/src/VncView.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/src/dh.cpp">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/qtcreator-build/lib/qt_qm.qrc">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/ica.qrc">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/AccessDialogSlave.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/DemoClient.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/DemoClientSlave.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/DemoServer.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/DemoServerMaster.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/DemoServerSlave.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/DesktopAccessPermission.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/IcaSlave.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/InputLockSlave.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/MessageBoxSlave.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/RfbLZORLE.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/RfbVeritableCursor.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/ScreenLockSlave.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/ScreenLockSlaveLauncher.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/SystemTrayIconSlave.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/VeritableCoreServer.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/VeritableSlaveManager.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/VeritableVncServer.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/src/WindowsService.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/addon/ms-logon/authSSP/EventLogging.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/addon/ms-logon/authSSP/GenClientServerContext.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/addon/ms-logon/authSSP/authSSP.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/addon/ms-logon/authSSP/vncAccessControl.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/addon/ms-logon/authSSP/vncSSP.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/common/Clipboard.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/common/win32_helpers.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/rdr/ZlibInStream.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/rdr/ZlibOutStream.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/DSMPlugin/DSMPlugin.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/omnithread/nt.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/vnchooks/SharedData.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/vnchooks/VNCHooks.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/CpuUsage.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/Dtwinver.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/HideDesktop.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/IPC.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/Timer.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/d3des.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/httpconnect.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/inifile.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/rfbRegion_win32.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/rfbUpdateTracker.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/stdhdrs.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/translate.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/videodriver.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncEncodeTight.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncEncodeUltra.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncEncodeUltra2.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncEncodeZlib.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncEncodeZlibHex.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncListDlg.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncOSVersion.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncabout.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncacceptdialog.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncauth.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncbuffer.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncconndialog.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncdesktopthread.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncencodecorre.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncencodehext.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncencoder.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncencoderre.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncencodezrle.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vnchttpconnect.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncinsthandler.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vnckeymap.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vnclog.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncmenu.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncproperties.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncpropertiesPoll.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncserver.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncservice.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncsetauth.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vncsockconnect.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/vnctimedmsgbox.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/winvnc/winvnc/winvnc.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/common/d3des.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/common/minilzo.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncserver/scale.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncserver/zrleoutstream.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncserver/zrlepalettehelper.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/dialogs/ClientSettingsDialog.ui">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/dialogs/Config.ui">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/dialogs/MainWindow.ui">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/dialogs/Overview.ui">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/dialogs/RemoteLogonDialog.ui">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/dialogs/RunCommandsDialog.ui">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/dialogs/Snapshots.ui">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/dialogs/SupportDialog.ui">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/dialogs/TextMessageDialog.ui">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/src/ClassroomManager.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/src/Client.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/src/ConfigWidget.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/src/Dialogs.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/src/MainToolBar.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/src/MainWindow.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/src/OverviewWidget.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/src/RemoteControlWidget.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/src/RunCommandsDialog.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/src/SideBar.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/src/SideBarWidget.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/src/SnapshotList.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/src/ToolButton.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/veritable.qrc">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/imc/Forms/KeyFileAssistant.ui">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/imc/Forms/LogonGroupEditor.ui">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/imc/Forms/MainWindow.ui">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/imc/imc.qrc">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/imc/src/FileSystemBrowser.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/imc/src/ImcCore.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/imc/src/KeyDirectoriesPage.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/imc/src/KeyFileAssistant.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/imc/src/KeyFileAssistantModePage.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/imc/src/LogonAclSettings.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/imc/src/LogonGroupEditor.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/imc/src/MainWindow.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/imc/src/SystemConfigurationModifier.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/imc/src/Win32AclEditor.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/imc/src/netfw.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/VeritableCore.qrc">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/dialogs/AboutDialog.ui">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/dialogs/PasswordDialog.ui">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/AboutDialog.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/AuthenticationCredentials.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/Configuration/LocalStore.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/Configuration/Object.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/Configuration/Store.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/Configuration/UiMapping.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/Configuration/XmlStore.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/DecoratedMessageBox.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/DsaKey.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/FastQImage.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/Inject.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/Ipc/Core.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/Ipc/Master.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/Ipc/QtSlaveLauncher.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/Ipc/Slave.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/Ipc/SlaveLauncher.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/LocalSystem.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/LockWidget.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/Logger.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/LogonAuthentication.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/PasswordDialog.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/ProgressWidget.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/QtUserEvents.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/QuadTree.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/Snapshot.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/SocketDevice.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/SystemKeyTrapper.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/VeritableConfiguration.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/VeritableCore.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/VeritableCoreConnection.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/VeritableRfbExt.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/VeritableVncConnection.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/VncView.h">
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/veritableconfig.h.in">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/vERITABLE.nsi.in">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/veritable.spec.in">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/cmake/modules/Qt4Hacks.cmake">
+          <Option virtualFolder="CMake Files\cmake\modules\" />
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/cmake/modules/DetectMachine.cmake">
+          <Option virtualFolder="CMake Files\cmake\modules\" />
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/veritable.rc.in">
+          <Option virtualFolder="CMake Files\ima\" />
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\ima\" />
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/veritable.qrc">
+          <Option virtualFolder="CMake Files\ima\" />
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/data/veritable.in">
+          <Option virtualFolder="CMake Files\ima\data\" />
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ima/data/veritable.desktop.in">
+          <Option virtualFolder="CMake Files\ima\data\" />
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/ica.rc.in">
+          <Option virtualFolder="CMake Files\ica\" />
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\ica\" />
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/ica.qrc">
+          <Option virtualFolder="CMake Files\ica\" />
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/win32/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\ica\win32\" />
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/imc/imc.rc.in">
+          <Option virtualFolder="CMake Files\imc\" />
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/imc/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\imc\" />
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/imc/imc.qrc">
+          <Option virtualFolder="CMake Files\imc\" />
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\lib\" />
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/VeritableCore.qrc">
+          <Option virtualFolder="CMake Files\lib\" />
+      </Unit>
+      <Unit filename="D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/../qtcreator-build/lib/qt_qm.qrc">
+          <Option virtualFolder="CMake Files\..\qtcreator-build\lib\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

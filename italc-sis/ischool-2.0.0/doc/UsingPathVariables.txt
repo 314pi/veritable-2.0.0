@@ -1,0 +1,30 @@
+Using path variables
+====================
+
+This document describes how to use the builtin path variables for paths which
+can be customized using IMC. Path variables are helpful if you do not want
+to hardcode paths e.g. for configuration files but make them relative to a
+certain environment, e.g. the user's home/profile.
+
+The following path variables are known to iSCHOOL and replaced automatically:
+
+* $HOME, %HOME%, $PROFILE, %PROFILE%
+  - the home/profile directory of the user which started the application
+    (e.g. iSCHOOL Master Application)
+
+* $APPDATA, %APPDATA
+  - Linux: $HOME/.ischool
+  - Windows XP: C:\Documents and Settings\<user>\Application Data\iSCHOOL
+  - Windows Vista/7: C:\Users\<user>\AppData\Roaming\iSCHOOL
+
+* $GLOBALAPPDATA, %GLOBALAPPDATA%
+  - Linux: /etc/ischool
+  - Windows XP: C:\Documents and Settings\All Users\Application Data\iSCHOOL
+  - Windows Vista/7: C:\ProgramData\iSCHOOL
+
+* $TEMP, %TEMP%, $TMP, %TMP%:
+  - Linux: /tmp
+  - Windows: current %TEMP% environment variable:
+    - Windows XP: C:\Documents and Settings\<user>\Local Settings\Temp
+    - Windows Vista/7: C:\Users\<user>\AppData\Local\Temp
+

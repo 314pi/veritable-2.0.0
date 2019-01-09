@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/npt/Desktop/veritable-2.0.0/ica/win32/winvnc/vnchooks/SharedData.cpp
+windows.h
+/home/npt/Desktop/veritable-2.0.0/ica/win32/winvnc/vnchooks/windows.h
+
+/home/npt/Desktop/veritable-2.0.0/ica/win32/winvnc/vnchooks/SharedData.h
+
+/home/npt/Desktop/veritable-2.0.0/ica/win32/winvnc/vnchooks/VNCHooks.cpp
+VNCHooks.h
+/home/npt/Desktop/veritable-2.0.0/ica/win32/winvnc/vnchooks/VNCHooks.h
+stdlib.h
+-
+stdio.h
+-
+crtdbg.h
+-
+SharedData.h
+/home/npt/Desktop/veritable-2.0.0/ica/win32/winvnc/vnchooks/SharedData.h
+
+/home/npt/Desktop/veritable-2.0.0/ica/win32/winvnc/vnchooks/VNCHooks.h
+windows.h
+-
+

@@ -1,0 +1,7 @@
+?package(ischool-master):\
+	needs="X11"\
+	section="Applications/Education"\
+	title="iSCHOOL"\
+	command="@prefix@/bin/ischool" \
+	icon32x32="@prefix@/share/pixmaps/ischool.png"\
+	hints="KDE"

@@ -1,0 +1,861 @@
+Determining if files arpa/inet.h exist failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+C:\QtSDK\mingw\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckIncludeFiles.c.obj   -c D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:23: error: arpa/inet.h: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <arpa/inet.h>
+
+
+int main(){return 0;}
+
+Determining if files netdb.h exist failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+C:\QtSDK\mingw\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckIncludeFiles.c.obj   -c D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:19: error: netdb.h: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <netdb.h>
+
+
+int main(){return 0;}
+
+Determining if files netinet/in.h exist failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+C:\QtSDK\mingw\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckIncludeFiles.c.obj   -c D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:24: error: netinet/in.h: No such file or directory
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj] Error 1
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <netinet/in.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/ioctl.h exist failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+C:\QtSDK\mingw\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckIncludeFiles.c.obj   -c D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:23: error: sys/ioctl.h: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <sys/ioctl.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/socket.h exist failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+C:\QtSDK\mingw\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckIncludeFiles.c.obj   -c D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:24: error: sys/socket.h: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <sys/socket.h>
+
+
+int main(){return 0;}
+
+Determining if files syslog.h exist failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+C:\QtSDK\mingw\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckIncludeFiles.c.obj   -c D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:20: error: syslog.h: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <syslog.h>
+
+
+int main(){return 0;}
+
+Determining if files pwd.h exist failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+C:\QtSDK\mingw\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckIncludeFiles.c.obj   -c D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:17: error: pwd.h: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <pwd.h>
+
+
+int main(){return 0;}
+
+Determining if files utmpx.h exist failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+C:\QtSDK\mingw\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckIncludeFiles.c.obj   -c D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:19: error: utmpx.h: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <utmpx.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/wait.h exist failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+C:\QtSDK\mingw\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckIncludeFiles.c.obj   -c D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:22: error: sys/wait.h: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <sys/wait.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/ipc.h exist failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+C:\QtSDK\mingw\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckIncludeFiles.c.obj   -c D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:21: error: sys/ipc.h: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <sys/ipc.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/shm.h exist failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+C:\QtSDK\mingw\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckIncludeFiles.c.obj   -c D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:21: error: sys/shm.h: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <sys/shm.h>
+
+
+int main(){return 0;}
+
+Determining if files dlfcn.h exist failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+C:\QtSDK\mingw\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckIncludeFiles.c.obj   -c D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:19: error: dlfcn.h: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <dlfcn.h>
+
+
+int main(){return 0;}
+
+Determining if files vfork.h exist failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+C:\QtSDK\mingw\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckIncludeFiles.c.obj   -c D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:19: error: vfork.h: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <vfork.h>
+
+
+int main(){return 0;}
+
+Determining if files linux/fb.h exist failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+C:\QtSDK\mingw\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckIncludeFiles.c.obj   -c D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:22: error: linux/fb.h: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <linux/fb.h>
+
+
+int main(){return 0;}
+
+Determining if files linux/input.h exist failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+C:\QtSDK\mingw\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckIncludeFiles.c.obj   -c D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:25: error: linux/input.h: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <linux/input.h>
+
+
+int main(){return 0;}
+
+Determining if files linux/uinput.h exist failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+C:\QtSDK\mingw\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckIncludeFiles.c.obj   -c D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:26: error: linux/uinput.h: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <linux/uinput.h>
+
+
+int main(){return 0;}
+
+Determining if files linux/videodev.h exist failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+C:\QtSDK\mingw\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckIncludeFiles.c.obj   -c D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c:2:28: error: linux/videodev.h: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <linux/videodev.h>
+
+
+int main(){return 0;}
+
+Determining if the function geteuid exists failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+C:\QtSDK\mingw\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=geteuid   -o CMakeFiles\cmTryCompileExec.dir\CheckFunctionExists.c.obj   -c "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+Linking C executable cmTryCompileExec.exe
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec.dir/objects.a
+C:\QtSDK\mingw\bin\ar.exe cr CMakeFiles\cmTryCompileExec.dir/objects.a @CMakeFiles\cmTryCompileExec.dir\objects1.rsp
+C:\QtSDK\mingw\bin\gcc.exe     -DCHECK_FUNCTION_EXISTS=geteuid    -Wl,--whole-archive CMakeFiles\cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles\cmTryCompileExec.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `geteuid'
+collect2: ld returned 1 exit status
+mingw32-make.exe[1]: *** [cmTryCompileExec.exe] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function gethostbyname exists failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+C:\QtSDK\mingw\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles\cmTryCompileExec.dir\CheckFunctionExists.c.obj   -c "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+Linking C executable cmTryCompileExec.exe
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec.dir/objects.a
+C:\QtSDK\mingw\bin\ar.exe cr CMakeFiles\cmTryCompileExec.dir/objects.a @CMakeFiles\cmTryCompileExec.dir\objects1.rsp
+C:\QtSDK\mingw\bin\gcc.exe     -DCHECK_FUNCTION_EXISTS=gethostbyname    -Wl,--whole-archive CMakeFiles\cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles\cmTryCompileExec.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `gethostbyname'
+collect2: ld returned 1 exit status
+mingw32-make.exe[1]: *** [cmTryCompileExec.exe] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function gethostname exists failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+C:\QtSDK\mingw\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=gethostname   -o CMakeFiles\cmTryCompileExec.dir\CheckFunctionExists.c.obj   -c "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+Linking C executable cmTryCompileExec.exe
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec.dir/objects.a
+C:\QtSDK\mingw\bin\ar.exe cr CMakeFiles\cmTryCompileExec.dir/objects.a @CMakeFiles\cmTryCompileExec.dir\objects1.rsp
+C:\QtSDK\mingw\bin\gcc.exe     -DCHECK_FUNCTION_EXISTS=gethostname    -Wl,--whole-archive CMakeFiles\cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles\cmTryCompileExec.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `gethostname'
+collect2: ld returned 1 exit status
+mingw32-make.exe[1]: *** [cmTryCompileExec.exe] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function getpwnam exists failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+C:\QtSDK\mingw\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=getpwnam   -o CMakeFiles\cmTryCompileExec.dir\CheckFunctionExists.c.obj   -c "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+Linking C executable cmTryCompileExec.exe
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec.dir/objects.a
+C:\QtSDK\mingw\bin\ar.exe cr CMakeFiles\cmTryCompileExec.dir/objects.a @CMakeFiles\cmTryCompileExec.dir\objects1.rsp
+C:\QtSDK\mingw\bin\gcc.exe     -DCHECK_FUNCTION_EXISTS=getpwnam    -Wl,--whole-archive CMakeFiles\cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles\cmTryCompileExec.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `getpwnam'
+collect2: ld returned 1 exit status
+mingw32-make.exe[1]: *** [cmTryCompileExec.exe] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function getpwuid exists failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+C:\QtSDK\mingw\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=getpwuid   -o CMakeFiles\cmTryCompileExec.dir\CheckFunctionExists.c.obj   -c "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+Linking C executable cmTryCompileExec.exe
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec.dir/objects.a
+C:\QtSDK\mingw\bin\ar.exe cr CMakeFiles\cmTryCompileExec.dir/objects.a @CMakeFiles\cmTryCompileExec.dir\objects1.rsp
+C:\QtSDK\mingw\bin\gcc.exe     -DCHECK_FUNCTION_EXISTS=getpwuid    -Wl,--whole-archive CMakeFiles\cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles\cmTryCompileExec.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `getpwuid'
+collect2: ld returned 1 exit status
+mingw32-make.exe[1]: *** [cmTryCompileExec.exe] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function getspnam exists failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+C:\QtSDK\mingw\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=getspnam   -o CMakeFiles\cmTryCompileExec.dir\CheckFunctionExists.c.obj   -c "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+Linking C executable cmTryCompileExec.exe
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec.dir/objects.a
+C:\QtSDK\mingw\bin\ar.exe cr CMakeFiles\cmTryCompileExec.dir/objects.a @CMakeFiles\cmTryCompileExec.dir\objects1.rsp
+C:\QtSDK\mingw\bin\gcc.exe     -DCHECK_FUNCTION_EXISTS=getspnam    -Wl,--whole-archive CMakeFiles\cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles\cmTryCompileExec.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `getspnam'
+collect2: ld returned 1 exit status
+mingw32-make.exe[1]: *** [cmTryCompileExec.exe] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function getuid exists failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+C:\QtSDK\mingw\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=getuid   -o CMakeFiles\cmTryCompileExec.dir\CheckFunctionExists.c.obj   -c "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+Linking C executable cmTryCompileExec.exe
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec.dir/objects.a
+C:\QtSDK\mingw\bin\ar.exe cr CMakeFiles\cmTryCompileExec.dir/objects.a @CMakeFiles\cmTryCompileExec.dir\objects1.rsp
+C:\QtSDK\mingw\bin\gcc.exe     -DCHECK_FUNCTION_EXISTS=getuid    -Wl,--whole-archive CMakeFiles\cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles\cmTryCompileExec.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `getuid'
+collect2: ld returned 1 exit status
+mingw32-make.exe[1]: *** [cmTryCompileExec.exe] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function grantpt exists failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+C:\QtSDK\mingw\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=grantpt   -o CMakeFiles\cmTryCompileExec.dir\CheckFunctionExists.c.obj   -c "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+Linking C executable cmTryCompileExec.exe
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec.dir/objects.a
+C:\QtSDK\mingw\bin\ar.exe cr CMakeFiles\cmTryCompileExec.dir/objects.a @CMakeFiles\cmTryCompileExec.dir\objects1.rsp
+C:\QtSDK\mingw\bin\gcc.exe     -DCHECK_FUNCTION_EXISTS=grantpt    -Wl,--whole-archive CMakeFiles\cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles\cmTryCompileExec.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `grantpt'
+collect2: ld returned 1 exit status
+mingw32-make.exe[1]: *** [cmTryCompileExec.exe] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function inet_ntoa exists failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+C:\QtSDK\mingw\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=inet_ntoa   -o CMakeFiles\cmTryCompileExec.dir\CheckFunctionExists.c.obj   -c "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+Linking C executable cmTryCompileExec.exe
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec.dir/objects.a
+C:\QtSDK\mingw\bin\ar.exe cr CMakeFiles\cmTryCompileExec.dir/objects.a @CMakeFiles\cmTryCompileExec.dir\objects1.rsp
+C:\QtSDK\mingw\bin\gcc.exe     -DCHECK_FUNCTION_EXISTS=inet_ntoa    -Wl,--whole-archive CMakeFiles\cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles\cmTryCompileExec.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `inet_ntoa'
+collect2: ld returned 1 exit status
+mingw32-make.exe[1]: *** [cmTryCompileExec.exe] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function initgroups exists failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+C:\QtSDK\mingw\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=initgroups   -o CMakeFiles\cmTryCompileExec.dir\CheckFunctionExists.c.obj   -c "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+Linking C executable cmTryCompileExec.exe
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec.dir/objects.a
+C:\QtSDK\mingw\bin\ar.exe cr CMakeFiles\cmTryCompileExec.dir/objects.a @CMakeFiles\cmTryCompileExec.dir\objects1.rsp
+C:\QtSDK\mingw\bin\gcc.exe     -DCHECK_FUNCTION_EXISTS=initgroups    -Wl,--whole-archive CMakeFiles\cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles\cmTryCompileExec.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `initgroups'
+collect2: ld returned 1 exit status
+mingw32-make.exe[1]: *** [cmTryCompileExec.exe] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function mkfifo exists failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+C:\QtSDK\mingw\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=mkfifo   -o CMakeFiles\cmTryCompileExec.dir\CheckFunctionExists.c.obj   -c "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+Linking C executable cmTryCompileExec.exe
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec.dir/objects.a
+C:\QtSDK\mingw\bin\ar.exe cr CMakeFiles\cmTryCompileExec.dir/objects.a @CMakeFiles\cmTryCompileExec.dir\objects1.rsp
+C:\QtSDK\mingw\bin\gcc.exe     -DCHECK_FUNCTION_EXISTS=mkfifo    -Wl,--whole-archive CMakeFiles\cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles\cmTryCompileExec.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `mkfifo'
+collect2: ld returned 1 exit status
+mingw32-make.exe[1]: *** [cmTryCompileExec.exe] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function mmap exists failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+C:\QtSDK\mingw\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=mmap   -o CMakeFiles\cmTryCompileExec.dir\CheckFunctionExists.c.obj   -c "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+Linking C executable cmTryCompileExec.exe
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec.dir/objects.a
+C:\QtSDK\mingw\bin\ar.exe cr CMakeFiles\cmTryCompileExec.dir/objects.a @CMakeFiles\cmTryCompileExec.dir\objects1.rsp
+C:\QtSDK\mingw\bin\gcc.exe     -DCHECK_FUNCTION_EXISTS=mmap    -Wl,--whole-archive CMakeFiles\cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles\cmTryCompileExec.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `mmap'
+collect2: ld returned 1 exit status
+mingw32-make.exe[1]: *** [cmTryCompileExec.exe] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function select exists failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+C:\QtSDK\mingw\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=select   -o CMakeFiles\cmTryCompileExec.dir\CheckFunctionExists.c.obj   -c "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+Linking C executable cmTryCompileExec.exe
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec.dir/objects.a
+C:\QtSDK\mingw\bin\ar.exe cr CMakeFiles\cmTryCompileExec.dir/objects.a @CMakeFiles\cmTryCompileExec.dir\objects1.rsp
+C:\QtSDK\mingw\bin\gcc.exe     -DCHECK_FUNCTION_EXISTS=select    -Wl,--whole-archive CMakeFiles\cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles\cmTryCompileExec.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `select'
+collect2: ld returned 1 exit status
+mingw32-make.exe[1]: *** [cmTryCompileExec.exe] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function seteuid exists failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+C:\QtSDK\mingw\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=seteuid   -o CMakeFiles\cmTryCompileExec.dir\CheckFunctionExists.c.obj   -c "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+Linking C executable cmTryCompileExec.exe
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec.dir/objects.a
+C:\QtSDK\mingw\bin\ar.exe cr CMakeFiles\cmTryCompileExec.dir/objects.a @CMakeFiles\cmTryCompileExec.dir\objects1.rsp
+C:\QtSDK\mingw\bin\gcc.exe     -DCHECK_FUNCTION_EXISTS=seteuid    -Wl,--whole-archive CMakeFiles\cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles\cmTryCompileExec.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `seteuid'
+collect2: ld returned 1 exit status
+mingw32-make.exe[1]: *** [cmTryCompileExec.exe] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function setpgrp exists failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+C:\QtSDK\mingw\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=setpgrp   -o CMakeFiles\cmTryCompileExec.dir\CheckFunctionExists.c.obj   -c "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+Linking C executable cmTryCompileExec.exe
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec.dir/objects.a
+C:\QtSDK\mingw\bin\ar.exe cr CMakeFiles\cmTryCompileExec.dir/objects.a @CMakeFiles\cmTryCompileExec.dir\objects1.rsp
+C:\QtSDK\mingw\bin\gcc.exe     -DCHECK_FUNCTION_EXISTS=setpgrp    -Wl,--whole-archive CMakeFiles\cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles\cmTryCompileExec.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `setpgrp'
+collect2: ld returned 1 exit status
+mingw32-make.exe[1]: *** [cmTryCompileExec.exe] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function setsid exists failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+C:\QtSDK\mingw\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=setsid   -o CMakeFiles\cmTryCompileExec.dir\CheckFunctionExists.c.obj   -c "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+Linking C executable cmTryCompileExec.exe
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec.dir/objects.a
+C:\QtSDK\mingw\bin\ar.exe cr CMakeFiles\cmTryCompileExec.dir/objects.a @CMakeFiles\cmTryCompileExec.dir\objects1.rsp
+C:\QtSDK\mingw\bin\gcc.exe     -DCHECK_FUNCTION_EXISTS=setsid    -Wl,--whole-archive CMakeFiles\cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles\cmTryCompileExec.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `setsid'
+collect2: ld returned 1 exit status
+mingw32-make.exe[1]: *** [cmTryCompileExec.exe] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function setutxent exists failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+C:\QtSDK\mingw\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=setutxent   -o CMakeFiles\cmTryCompileExec.dir\CheckFunctionExists.c.obj   -c "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+Linking C executable cmTryCompileExec.exe
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec.dir/objects.a
+C:\QtSDK\mingw\bin\ar.exe cr CMakeFiles\cmTryCompileExec.dir/objects.a @CMakeFiles\cmTryCompileExec.dir\objects1.rsp
+C:\QtSDK\mingw\bin\gcc.exe     -DCHECK_FUNCTION_EXISTS=setutxent    -Wl,--whole-archive CMakeFiles\cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles\cmTryCompileExec.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `setutxent'
+collect2: ld returned 1 exit status
+mingw32-make.exe[1]: *** [cmTryCompileExec.exe] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function socket exists failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+C:\QtSDK\mingw\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=socket   -o CMakeFiles\cmTryCompileExec.dir\CheckFunctionExists.c.obj   -c "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+Linking C executable cmTryCompileExec.exe
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec.dir/objects.a
+C:\QtSDK\mingw\bin\ar.exe cr CMakeFiles\cmTryCompileExec.dir/objects.a @CMakeFiles\cmTryCompileExec.dir\objects1.rsp
+C:\QtSDK\mingw\bin\gcc.exe     -DCHECK_FUNCTION_EXISTS=socket    -Wl,--whole-archive CMakeFiles\cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles\cmTryCompileExec.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `socket'
+collect2: ld returned 1 exit status
+mingw32-make.exe[1]: *** [cmTryCompileExec.exe] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function uname exists failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+C:\QtSDK\mingw\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=uname   -o CMakeFiles\cmTryCompileExec.dir\CheckFunctionExists.c.obj   -c "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+Linking C executable cmTryCompileExec.exe
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec.dir/objects.a
+C:\QtSDK\mingw\bin\ar.exe cr CMakeFiles\cmTryCompileExec.dir/objects.a @CMakeFiles\cmTryCompileExec.dir\objects1.rsp
+C:\QtSDK\mingw\bin\gcc.exe     -DCHECK_FUNCTION_EXISTS=uname    -Wl,--whole-archive CMakeFiles\cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles\cmTryCompileExec.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `uname'
+collect2: ld returned 1 exit status
+mingw32-make.exe[1]: *** [cmTryCompileExec.exe] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function waitpid exists failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+C:\QtSDK\mingw\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=waitpid   -o CMakeFiles\cmTryCompileExec.dir\CheckFunctionExists.c.obj   -c "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+Linking C executable cmTryCompileExec.exe
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec.dir/objects.a
+C:\QtSDK\mingw\bin\ar.exe cr CMakeFiles\cmTryCompileExec.dir/objects.a @CMakeFiles\cmTryCompileExec.dir\objects1.rsp
+C:\QtSDK\mingw\bin\gcc.exe     -DCHECK_FUNCTION_EXISTS=waitpid    -Wl,--whole-archive CMakeFiles\cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles\cmTryCompileExec.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `waitpid'
+collect2: ld returned 1 exit status
+mingw32-make.exe[1]: *** [cmTryCompileExec.exe] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the Q_WS_X11 exist failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.cxx.obj
+C:\QtSDK\mingw\bin\g++.exe    @CMakeFiles/cmTryCompileExec.dir/includes_CXX.rsp   -o CMakeFiles\cmTryCompileExec.dir\CheckSymbolExists.cxx.obj -c D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx
+D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx: In function 'int main()':
+D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx:8: error: 'Q_WS_X11' was not declared in this scope
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.cxx.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+File D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef Q_WS_X11
+  cmakeRequireSymbol(0,&Q_WS_X11);
+#endif
+  return 0;
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.cxx.obj
+C:\QtSDK\mingw\bin\g++.exe    @CMakeFiles/cmTryCompileExec.dir/includes_CXX.rsp   -o CMakeFiles\cmTryCompileExec.dir\CheckSymbolExists.cxx.obj -c D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx
+D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx: In function 'int main()':
+D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx:8: error: 'Q_WS_QWS' was not declared in this scope
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.cxx.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+File D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef Q_WS_QWS
+  cmakeRequireSymbol(0,&Q_WS_QWS);
+#endif
+  return 0;
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/QtSDK/mingw/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/QtSDK/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.cxx.obj
+C:\QtSDK\mingw\bin\g++.exe    @CMakeFiles/cmTryCompileExec.dir/includes_CXX.rsp   -o CMakeFiles\cmTryCompileExec.dir\CheckSymbolExists.cxx.obj -c D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx
+D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx: In function 'int main()':
+D:\quantrong\iTalc\qtcreator-build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx:8: error: 'Q_WS_MAC' was not declared in this scope
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.cxx.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+File D:/quantrong/iTalc/qtcreator-build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef Q_WS_MAC
+  cmakeRequireSymbol(0,&Q_WS_MAC);
+#endif
+  return 0;
+}
+

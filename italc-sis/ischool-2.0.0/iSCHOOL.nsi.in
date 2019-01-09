@@ -1,0 +1,413 @@
+!define DLLDIR "@MINGW_PREFIX@/bin"
+!define APP_NAME "iSchool"
+!define COMP_NAME "Veritable Co., Ltd."
+!define WEB_SITE "http://veritable.com"
+!define VERSION "@VERSION@"
+!define COPYRIGHT "© Tobias Doerffel 2004-2011"
+!define DESCRIPTION "Phan mem quan ly phong may - iSchool"
+!define LICENSE_TXT "@CMAKE_SOURCE_DIR@/COPYING"
+!define INSTALLER_NAME "ischool-${VERSION}-@MINGW_PLATFORM@-setup.exe"
+!define MAIN_APP_EXE "ischool.exe"
+!define INSTALL_TYPE "SetShellVarContext all"
+!define REG_ROOT "HKLM"
+!define REG_APP_PATH "Software\Microsoft\Windows\CurrentVersion\App Paths\${MAIN_APP_EXE}"
+!define UNINSTALL_PATH "Software\Microsoft\Windows\CurrentVersion\Uninstall\${APP_NAME}"
+
+######################################################################
+
+VIProductVersion  "${VERSION}.0"
+VIAddVersionKey "ProductName"  "${APP_NAME}"
+VIAddVersionKey "CompanyName"  "${COMP_NAME}"
+VIAddVersionKey "LegalCopyright"  "${COPYRIGHT}"
+VIAddVersionKey "FileDescription"  "${DESCRIPTION}"
+VIAddVersionKey "FileVersion"  "${VERSION}"
+
+######################################################################
+
+SetCompressor /SOLID Lzma
+Name "${APP_NAME}"
+Caption "${APP_NAME} ${VERSION}"
+OutFile "${INSTALLER_NAME}"
+BrandingText "${APP_NAME} ${VERSION}"
+XPStyle on
+InstallDirRegKey "${REG_ROOT}" "${REG_APP_PATH}" ""
+InstallDir "$PROGRAMFILES64\iSchool"
+#ShowInstDetails show
+
+######################################################################
+Var /GLOBAL masoocung
+Var /GLOBAL mahotro
+Var /GLOBAL md5
+Var /GLOBAL kytudau
+var /GLOBAL chieudaimaocung
+var /GLOBAL tiento
+var /GLOBAL key
+Var /GLOBAL bangkytu
+
+!macro _StrContainsConstructor OUT NEEDLE HAYSTACK
+  Push "${HAYSTACK}"
+  Push "${NEEDLE}"
+  Call StrContains
+  Pop "${OUT}"
+!macroend
+
+!define StrContains '!insertmacro "_StrContainsConstructor"'
+
+!include "MUI2.nsh"
+!include "MUI.nsh"
+!include "GetHDDSerial.nsdinc"
+
+!define MUI_ABORTWARNING
+!define MUI_UNABORTWARNING
+
+!define MUI_WELCOMEFINISHPAGE_BITMAP "@CMAKE_SOURCE_DIR@/nsis/welcome-page.bmp"
+
+!define MUI_HEADERIMAGE
+!define MUI_HEADERIMAGE_BITMAP "@CMAKE_SOURCE_DIR@/nsis/header.bmp"
+
+!define MUI_LANGDLL_REGISTRY_ROOT "${REG_ROOT}"
+!define MUI_LANGDLL_REGISTRY_KEY "${UNINSTALL_PATH}"
+!define MUI_LANGDLL_REGISTRY_VALUENAME "Installer Language"
+
+!insertmacro MUI_PAGE_WELCOME
+
+!insertmacro MUI_PAGE_LICENSE "${LICENSE_TXT}"
+
+!insertmacro MUI_PAGE_DIRECTORY
+
+Page custom fnc_GetHDDSerial_Show
+
+Page Custom NhapMaHoTro_1 KiemTraMaHoTro_1
+
+!insertmacro MUI_PAGE_COMPONENTS
+
+!ifdef REG_START_MENU
+!define MUI_STARTMENUPAGE_NODISABLE
+!define MUI_STARTMENUPAGE_DEFAULTFOLDER "iSchool"
+!define MUI_STARTMENUPAGE_REGISTRY_ROOT "${REG_ROOT}"
+!define MUI_STARTMENUPAGE_REGISTRY_KEY "${UNINSTALL_PATH}"
+!define MUI_STARTMENUPAGE_REGISTRY_VALUENAME "${REG_START_MENU}"
+!insertmacro MUI_PAGE_STARTMENU Application $SM_Folder
+!endif
+
+!insertmacro MUI_PAGE_INSTFILES
+
+!define MUI_FINISHPAGE_RUN
+!define MUI_FINISHPAGE_RUN_TEXT "Chay trinh quan ly iSchool ngay bay gio"
+!define MUI_FINISHPAGE_RUN_FUNCTION "RunIMC"
+
+!insertmacro MUI_PAGE_FINISH
+
+!insertmacro MUI_UNPAGE_CONFIRM
+
+!insertmacro MUI_UNPAGE_INSTFILES
+
+!insertmacro MUI_UNPAGE_FINISH
+
+!insertmacro MUI_LANGUAGE "Albanian"
+!insertmacro MUI_LANGUAGE "Arabic"
+!insertmacro MUI_LANGUAGE "Belarusian"
+!insertmacro MUI_LANGUAGE "Bosnian"
+!insertmacro MUI_LANGUAGE "Breton"
+!insertmacro MUI_LANGUAGE "Bulgarian"
+!insertmacro MUI_LANGUAGE "Catalan"
+!insertmacro MUI_LANGUAGE "Croatian"
+!insertmacro MUI_LANGUAGE "Czech"
+!insertmacro MUI_LANGUAGE "Danish"
+!insertmacro MUI_LANGUAGE "Dutch"
+!insertmacro MUI_LANGUAGE "English"
+!insertmacro MUI_LANGUAGE "Estonian"
+!insertmacro MUI_LANGUAGE "Farsi"
+!insertmacro MUI_LANGUAGE "Finnish"
+!insertmacro MUI_LANGUAGE "French"
+!insertmacro MUI_LANGUAGE "German"
+!insertmacro MUI_LANGUAGE "Greek"
+!insertmacro MUI_LANGUAGE "Hebrew"
+!insertmacro MUI_LANGUAGE "Hungarian"
+!insertmacro MUI_LANGUAGE "Icelandic"
+!insertmacro MUI_LANGUAGE "Indonesian"
+!insertmacro MUI_LANGUAGE "Italian"
+!insertmacro MUI_LANGUAGE "Japanese"
+!insertmacro MUI_LANGUAGE "Korean"
+!insertmacro MUI_LANGUAGE "Kurdish"
+!insertmacro MUI_LANGUAGE "Latvian"
+!insertmacro MUI_LANGUAGE "Lithuanian"
+!insertmacro MUI_LANGUAGE "Luxembourgish"
+!insertmacro MUI_LANGUAGE "Macedonian"
+!insertmacro MUI_LANGUAGE "Malay"
+!insertmacro MUI_LANGUAGE "Mongolian"
+!insertmacro MUI_LANGUAGE "Norwegian"
+!insertmacro MUI_LANGUAGE "Polish"
+!insertmacro MUI_LANGUAGE "Portuguese"
+!insertmacro MUI_LANGUAGE "PortugueseBR"
+!insertmacro MUI_LANGUAGE "Romanian"
+!insertmacro MUI_LANGUAGE "Russian"
+!insertmacro MUI_LANGUAGE "Serbian"
+!insertmacro MUI_LANGUAGE "SerbianLatin"
+!insertmacro MUI_LANGUAGE "SimpChinese"
+!insertmacro MUI_LANGUAGE "Slovak"
+!insertmacro MUI_LANGUAGE "Slovenian"
+!insertmacro MUI_LANGUAGE "Spanish"
+!insertmacro MUI_LANGUAGE "Swedish"
+!insertmacro MUI_LANGUAGE "Thai"
+!insertmacro MUI_LANGUAGE "TradChinese"
+!insertmacro MUI_LANGUAGE "Turkish"
+!insertmacro MUI_LANGUAGE "Ukrainian"
+
+!insertmacro MUI_RESERVEFILE_LANGDLL
+
+
+
+######################################################################
+
+Function .onInit
+#!insertmacro MUI_LANGDLL_DISPLAY
+    SetOutPath $INSTDIR
+    File diskid32.exe
+FunctionEnd
+
+Var STR_HAYSTACK
+Var STR_NEEDLE
+Var STR_CONTAINS_VAR_1
+Var STR_CONTAINS_VAR_2
+Var STR_CONTAINS_VAR_3
+Var STR_CONTAINS_VAR_4
+Var STR_RETURN_VAR
+ 
+Function StrContains
+  Exch $STR_NEEDLE
+  Exch 1
+  Exch $STR_HAYSTACK
+  ; Uncomment to debug
+  ;MessageBox MB_OK 'STR_NEEDLE = $STR_NEEDLE STR_HAYSTACK = $STR_HAYSTACK '
+    StrCpy $STR_RETURN_VAR ""
+    StrCpy $STR_CONTAINS_VAR_1 -1
+    StrLen $STR_CONTAINS_VAR_2 $STR_NEEDLE
+    StrLen $STR_CONTAINS_VAR_4 $STR_HAYSTACK
+    loop:
+      IntOp $STR_CONTAINS_VAR_1 $STR_CONTAINS_VAR_1 + 1
+      StrCpy $STR_CONTAINS_VAR_3 $STR_HAYSTACK $STR_CONTAINS_VAR_2 $STR_CONTAINS_VAR_1
+      StrCmp $STR_CONTAINS_VAR_3 $STR_NEEDLE found
+      StrCmp $STR_CONTAINS_VAR_1 $STR_CONTAINS_VAR_4 done
+      Goto loop
+    found:
+      StrCpy $STR_RETURN_VAR $STR_NEEDLE
+      Goto done
+    done:
+   Pop $STR_NEEDLE ;Prevent "invalid opcode" errors and keep the
+   Exch $STR_RETURN_VAR  
+FunctionEnd
+
+Function NhapMaHoTro_1
+
+ !insertmacro MUI_HEADER_TEXT "Nhap ma nhan ho tro" "Vui long nhap ma so ho tro phan mem de tiep tuc cai dat....."
+
+ PassDialog::Dialog Serial            \
+                    /HEADINGTEXT 'Vui long nhap ma so ho tro ma ban duoc cung cap ...' \
+                    /CENTER             \
+                    /BOX 120  170 10 ''
+
+  Pop $R0 # success, back, cancel or error
+
+FunctionEnd
+
+## Validate serial numbers
+Function KiemTraMaHoTro_1
+
+StrCpy $bangkytu "ABCDEFGHIJKLMNOPQRSTUVXYZabcdefghijklmnopqrstuvxyz"
+ ## Pop values from stack
+ Pop $R0
+ StrCpy $mahotro $R0
+ 
+
+ ## A bit of validation
+
+StrLen $chieudaimaocung $masoocung
+StrCpy $R9 "ischool_$masoocung_$chieudaimaocung"
+md5dll::GetMD5String $R9
+Pop $0
+StrCpy $md5 $0
+StrCpy $kytudau $md5 1 0
+
+${StrContains} $0 $kytudau $bangkytu
+StrCmp $0 "" notfound
+  StrCpy $tiento "15"
+  Goto done
+notfound:
+  StrCpy $tiento "is"
+done:
+
+StrCpy $key $md5 8 $chieudaimaocung
+StrCpy $key "$tiento$key"
+
+StrCmp $R0 $key +3
+ MessageBox MB_OK|MB_ICONEXCLAMATION "ma so ho tro khong dung, Vui long nhap lai ma so ho tro"
+ Abort
+
+ ## Display the values
+ MessageBox MB_OK|MB_ICONINFORMATION "Ban da dang ky nhan ho tro thanh cong. Chuc ban vui ve!"
+
+FunctionEnd
+
+######################################################################
+
+Section "Dich vu iSchool"
+SectionIn RO
+${INSTALL_TYPE}
+ExecWait '"$INSTDIR\ica.exe" -quiet -unregisterservice'
+SetOverwrite on
+SetOutPath "$INSTDIR"
+# DLLs
+File "${DLLDIR}\QtCore4.dll"
+File "${DLLDIR}\QtGui4.dll"
+File "${DLLDIR}\QtXml4.dll"
+File "${DLLDIR}\QtNetwork4.dll"
+File "${DLLDIR}\zlib1.dll"
+File "${DLLDIR}\libjpeg-8.dll"
+File "${DLLDIR}\libpng15-15.dll"
+File "${DLLDIR}\libeay32.dll"
+File "${DLLDIR}\libssl32.dll"
+# core components
+File "ischool-${VERSION}\ica.exe"
+File "ischool-${VERSION}\vnchooks.dll"
+File "ischool-${VERSION}\authSSP.dll"
+File "ischool-${VERSION}\IschoolCore.dll"
+File "ischool-${VERSION}\imc.exe"
+File "ischool-${VERSION}\LICENSE.TXT"
+File "ischool-${VERSION}\README.TXT"
+SetOutPath "$INSTDIR\doc"
+File "ischool-${VERSION}\doc\*txt"
+SetOutPath "$INSTDIR\contrib"
+File "ischool-${VERSION}\contrib\*"
+SetOutPath "$INSTDIR\contrib\en-US"
+File "ischool-${VERSION}\contrib\en-US\*"
+ExecWait '"$INSTDIR\ica.exe" -quiet -registerservice'
+ExecWait '"$INSTDIR\imc.exe" -s Network/FirewallExceptionEnabled=1'
+ExecWait '"$INSTDIR\ica.exe" -quiet -startservice'
+# disable forced guest logon as otherwise logon authentication fails
+WriteRegDWORD ${REG_ROOT} "SYSTEM\CurrentControlSet\Control\Lsa"  "ForceGuest" "0"
+SectionEnd
+
+Section "May chu iSchool"
+SectionIn RO
+${INSTALL_TYPE}
+SetOutPath "$INSTDIR"
+File "ischool-${VERSION}\ischool.exe"
+
+!ifdef REG_START_MENU
+!insertmacro MUI_STARTMENU_WRITE_BEGIN Application
+CreateDirectory "$SMPROGRAMS\$SM_Folder"
+CreateShortCut "$SMPROGRAMS\$SM_Folder\${APP_NAME}.lnk" "$INSTDIR\${MAIN_APP_EXE}"
+CreateShortCut "$DESKTOP\${APP_NAME}.lnk" "$INSTDIR\${MAIN_APP_EXE}"
+!insertmacro MUI_STARTMENU_WRITE_END
+!endif
+
+!ifndef REG_START_MENU
+CreateDirectory "$SMPROGRAMS\${APP_NAME}"
+CreateShortCut "$SMPROGRAMS\${APP_NAME}\${APP_NAME}.lnk" "$INSTDIR\${MAIN_APP_EXE}"
+CreateShortCut "$DESKTOP\${APP_NAME}.lnk" "$INSTDIR\${MAIN_APP_EXE}"
+!endif
+SectionEnd
+
+Function RunIMC
+	Exec '"$INSTDIR\imc.exe"'
+FunctionEnd
+
+######################################################################
+
+Section -Icons_Reg
+SetOutPath "$INSTDIR"
+WriteUninstaller "$INSTDIR\uninstall.exe"
+
+!ifdef REG_START_MENU
+!insertmacro MUI_STARTMENU_WRITE_BEGIN Application
+CreateDirectory "$SMPROGRAMS\$SM_Folder"
+CreateShortCut "$SMPROGRAMS\$SM_Folder\Trinh quan ly iSchool.lnk" "$INSTDIR\imc.exe"
+CreateShortCut "$SMPROGRAMS\$SM_Folder\Uninstall iSchool.lnk" "$INSTDIR\uninstall.exe"
+WriteIniStr "$INSTDIR\iSchool website.url" "InternetShortcut" "URL" "${WEB_SITE}"
+CreateShortCut "$SMPROGRAMS\$SM_Folder\iSchool Website.lnk" "$INSTDIR\iSchool website.url"
+!insertmacro MUI_STARTMENU_WRITE_END
+!endif
+
+!ifndef REG_START_MENU
+CreateDirectory "$SMPROGRAMS\${APP_NAME}"
+CreateShortCut "$SMPROGRAMS\${APP_NAME}\Trinh quan ly iSchool.lnk" "$INSTDIR\imc.exe"
+CreateShortCut "$SMPROGRAMS\${APP_NAME}\Uninstall iSchool.lnk" "$INSTDIR\uninstall.exe"
+WriteIniStr "$INSTDIR\iSchool website.url" "InternetShortcut" "URL" "${WEB_SITE}"
+CreateShortCut "$SMPROGRAMS\${APP_NAME}\iSchool Website.lnk" "$INSTDIR\iSchool website.url"
+!endif
+
+WriteRegStr ${REG_ROOT} "${REG_APP_PATH}" "" "$INSTDIR\${MAIN_APP_EXE}"
+WriteRegStr ${REG_ROOT} "${UNINSTALL_PATH}"  "DisplayName" "iSchool"
+WriteRegStr ${REG_ROOT} "${UNINSTALL_PATH}"  "UninstallString" "$INSTDIR\uninstall.exe"
+WriteRegStr ${REG_ROOT} "${UNINSTALL_PATH}"  "DisplayIcon" "$INSTDIR\${MAIN_APP_EXE}"
+WriteRegStr ${REG_ROOT} "${UNINSTALL_PATH}"  "DisplayVersion" "${VERSION}"
+WriteRegStr ${REG_ROOT} "${UNINSTALL_PATH}"  "Publisher" "${COMP_NAME}"
+WriteRegStr ${REG_ROOT} "${UNINSTALL_PATH}"  "URLInfoAbout" "${WEB_SITE}"
+SectionEnd
+
+######################################################################
+
+Section Uninstall
+${INSTALL_TYPE}
+ExecWait '"$INSTDIR\imc.exe" -s Network/FirewallExceptionEnabled=0'
+ExecWait '"$INSTDIR\ica.exe" -quiet -unregisterservice'
+# make sure the service is stopped and all file handles are released
+Sleep 2000
+Delete "$INSTDIR\ica.exe"
+Delete "$INSTDIR\zlib1.dll"
+Delete "$INSTDIR\libpng15-15.dll"
+Delete "$INSTDIR\libjpeg-8.dll"
+Delete "$INSTDIR\QtXml4.dll"
+Delete "$INSTDIR\libeay32.dll"
+Delete "$INSTDIR\QtNetwork4.dll"
+Delete "$INSTDIR\QtCore4.dll"
+Delete "$INSTDIR\libssl32.dll"
+Delete "$INSTDIR\LICENSE.TXT"
+Delete "$INSTDIR\authSSP.dll"
+Delete "$INSTDIR\vnchooks.dll"
+Delete "$INSTDIR\imc.exe"
+Delete "$INSTDIR\ischool.exe"
+Delete "$INSTDIR\README.TXT"
+Delete "$INSTDIR\IschoolCore.dll"
+Delete "$INSTDIR\QtGui4.dll"
+Delete "$INSTDIR\uninstall.exe"
+Delete "$INSTDIR\iSchool website.url"
+RmDir /r "$INSTDIR\doc"
+RmDir /r "$INSTDIR\contrib"
+
+RmDir "$INSTDIR"
+
+!ifdef REG_START_MENU
+!insertmacro MUI_STARTMENU_GETFOLDER "Application" $SM_Folder
+Delete "$SMPROGRAMS\$SM_Folder\iSchool.lnk"
+Delete "$SMPROGRAMS\$SM_Folder\Uninstall iSchool.lnk"
+Delete "$SMPROGRAMS\$SM_Folder\Trinh quan ly iSchool.lnk"
+Delete "$SMPROGRAMS\$SM_Folder\iSchool Website.lnk"
+Delete "$DESKTOP\iSchool.lnk"
+
+RmDir "$SMPROGRAMS\$SM_Folder"
+!endif
+
+!ifndef REG_START_MENU
+Delete "$SMPROGRAMS\${APP_NAME}\iSchool.lnk"
+Delete "$SMPROGRAMS\${APP_NAME}\Trinh quan ly iSchool.lnk"
+Delete "$SMPROGRAMS\${APP_NAME}\Uninstall iSchool.lnk"
+Delete "$SMPROGRAMS\${APP_NAME}\iSchool Website.lnk"
+Delete "$DESKTOP\iSchool.lnk"
+
+RmDir "$SMPROGRAMS\${APP_NAME}"
+!endif
+
+DeleteRegKey ${REG_ROOT} "${REG_APP_PATH}"
+DeleteRegKey ${REG_ROOT} "${UNINSTALL_PATH}"
+SectionEnd
+
+######################################################################
+
+Function un.onInit
+!insertmacro MUI_UNGETLANGUAGE
+FunctionEnd
+
+######################################################################
+

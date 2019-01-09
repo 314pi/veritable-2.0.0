@@ -1,0 +1,7 @@
+?package(veritable-master):\
+	needs="X11"\
+	section="Applications/Education"\
+	title="vERITABLE"\
+	command="@prefix@/bin/veritable" \
+	icon32x32="@prefix@/share/pixmaps/veritable.png"\
+	hints="KDE"

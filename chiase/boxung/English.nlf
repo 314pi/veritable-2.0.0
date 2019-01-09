@@ -1,0 +1,191 @@
+# Header, don't edit
+NLF v6
+# Start editing here
+# Language ID
+1033
+# Font and size - dash (-) means default
+-
+-
+# Codepage - dash (-) means ANSI code page
+-
+# RTL - anything else than RTL means LTR
+-
+# Translation by ..... (any credits should go here)
+# ^Branding
+Nullsoft Install System %s
+# ^SetupCaption
+$(^Name) Cai dat
+# ^UninstallCaption
+$(^Name) Go bo
+# ^LicenseSubCaption
+: Thoa thuan giay phep
+# ^ComponentsSubCaption
+: lua chon cai dat
+# ^DirSubCaption
+: Thu muc cai dat
+# ^InstallingSubCaption
+: Dang cai dat
+# ^CompletedSubCaption
+: Hoan thanh
+# ^UnComponentsSubCaption
+: Lua chon go bo
+# ^UnDirSubCaption
+: Thu muc go bo
+# ^ConfirmSubCaption
+: Xac nhan
+# ^UninstallingSubCaption
+: Dang go bo
+# ^UnCompletedSubCaption
+: Hoan thanh
+# ^BackBtn
+< &Quay lai
+# ^NextBtn
+&Tiep tuc>
+# ^AgreeBtn
+Toi dong y
+# ^AcceptBtn
+Toi dong y voi dieu kien trong thoa thuan
+# ^DontAcceptBtn
+Toi khong dong y voi dieu kien trong thoa thuan
+# ^InstallBtn
+&Cai dat
+# ^UninstallBtn
+&Go bo
+# ^CancelBtn
+Huy
+# ^CloseBtn
+&Dong
+# ^BrowseBtn
+Chon
+# ^ShowDetailsBtn
+Xem chi tiet
+# ^ClickNext
+Chon Tiep tuc...
+# ^ClickInstall
+Chon Cai dat de bat dau cai dat
+# ^ClickUninstall
+Chon go bo de tiep tuc go bo
+# ^Name
+Ten
+# ^Completed
+Hoan thanh
+# ^LicenseText
+Vui long xem thoa thuan truoc khi cai dat $(^NameDA). Neu ban chap nhan moi dieu kien thoa thuan, hay chon Toi dong y.
+# ^LicenseTextCB
+Vui long xem thoa thuan truoc khi cai dat $(^NameDA). Neu ban chap nhan moi dieu kien, chon dau kiem ben duoi.  $_CLICK
+# ^LicenseTextRB
+Vui long xem thoa thuan truoc khi cai dat $(^NameDA). Neu ban chap nhan moi dieu kien, chon muc dau tien ben duoi . $_CLICK
+# ^UnLicenseText
+Vui ong xem thoa thuan truoc khi go bo $(^NameDA). Neu ban chap nhan moi dieu kien, chon Toi dong y.
+# ^UnLicenseTextCB
+Vui long xem thoa thuan truoc khi go bo $(^NameDA). Neu ban dong y moi dieu kien, chon dau kiem ben duoi. $_CLICK
+# ^UnLicenseTextRB
+Vui long xem thoa thuan truoc khi go bo $(^NameDA). Neu ban dong y moi dieu kien, chon muc dau tien ben duoi. $_CLICK
+# ^Custom
+Thay doi
+# ^ComponentsText
+Chon thanh phan ban muon cai dat va bo chon thanh phan ban khong muon cai dat. $_CLICK
+# ^ComponentsSubText1
+Chon kieu cai dat:
+# ^ComponentsSubText2_NoInstTypes
+Chon thanh phan de cai dat:
+# ^ComponentsSubText2
+Hoac, chon thanh phan bo xung ma ban muon cai dat:
+# ^UnComponentsText
+Chon thanh phan ban muon go bo va bo chon thanh phan ban khong muon go bo. $_CLICK
+# ^UnComponentsSubText1
+Chon kieu go bo:
+# ^UnComponentsSubText2_NoInstTypes
+Chon thanh phan de go bo:
+# ^UnComponentsSubText2
+Hoac, chon thanh phan bo xung ma ban muon go bo:
+# ^DirText
+Chuong trinh $(^NameDA) se duoc cai dat vao thu muc duoi day. De cai dat vao thu muc khac, chon nut Chon va chon mot thu muc khac. $_CLICK
+# ^DirSubText
+Thu muc dich
+# ^DirBrowseText
+Chon thu muc de cai dat $(^NameDA):
+# ^UnDirText
+Chuong trinh $(^NameDA) se duoc go bo khoi thu muc. De go bo tu mot thu muc khac, chon nut Chon va chon mot thu muc khac. $_CLICK
+# ^UnDirSubText
+""
+# ^UnDirBrowseText
+Chon thumuc de go bo $(^NameDA):
+# ^SpaceAvailable
+"Khong gian trong: "
+# ^SpaceRequired
+"Khong gian can thiet: "
+# ^UninstallingText
+$(^NameDA) se duoc go bo khoi thu muc. $_CLICK
+# ^UninstallingSubText
+Dang go bo khoi:
+# ^FileError
+Loi khi mo tep : \r\n\r\n$0\r\n\r\n Chon nut Bo de dung qua trinh cai dat,\r\n Nut Thu lai de thu lai, hoac nut \r\n Bo qua de bo qua tep nay.
+# ^FileError_NoIgnore
+Loi khi mo tep: \r\n\r\n$0\r\n\r\n Chon nut Thu lai de thu lai, hoac \r\n nut Huy de dung viec cai dat.
+# ^CantWrite
+"Khong the ghi : "
+# ^CopyFailed
+Sao chep that bai 
+# ^CopyTo
+"Sao chep sang "
+# ^Registering
+"Dang dang ky: "
+# ^Unregistering
+"Dang go dang ky: "
+# ^SymbolNotFound
+"Khong the tim thay ky hieu: "
+# ^CouldNotLoad
+"Khong the tai: "
+# ^CreateFolder
+"Tao thu muc: "
+# ^CreateShortcut
+"Tao bieu tuong: "
+# ^CreatedUninstaller
+"Tao bo go bo: "
+# ^Delete
+"Xoa tep: "
+# ^DeleteOnReboot
+"Xoa khi khoi dong lai: "
+# ^ErrorCreatingShortcut
+"Loi khi tao bieu tuong: "
+# ^ErrorCreating
+"Loi khi tao: "
+# ^ErrorDecompressing
+Loi khi giai nen du lieu! Bo cai dat bi hong?
+# ^ErrorRegistering
+Loi dang ky DLL
+# ^ExecShell
+"Chay lenh: "
+# ^Exec
+"Chay: "
+# ^Extract
+"Giai nen: "
+# ^ErrorWriting
+"Giai nen : loi ghi tep"
+# ^InvalidOpcode
+Bo cai dat bi loi: ma sai
+# ^NoOLE
+"Khong co OLE cho: "
+# ^OutputFolder
+"Thu muc xuat: "
+# ^RemoveFolder
+"Xoa thu muc: "
+# ^RenameOnReboot
+"Doi ten khi khoi dong lai: "
+# ^Rename
+"Doi ten: "
+# ^Skipped
+"Bo qua: "
+# ^CopyDetails
+Sao chep Chi tiet vao Bo nho dem
+# ^LogInstall
+Ghi lai qua trinh cai dat
+# ^Byte
+B
+# ^Kilo
+K
+# ^Mega
+M
+# ^Giga
+G

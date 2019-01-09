@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=vERITABLE
+GenericName=View and remote-control clients
+GenericName[de]=Clients überwachen und fernsteuern
+Comment=Intelligent Teaching And Learning with Computers
+Icon=@prefix@/share/pixmaps/veritable.png
+Exec=@prefix@/bin/veritable
+Type=Application
+Terminal=false
+Categories=Qt;KDE;Education;X-KDE-Edu-Teaching;

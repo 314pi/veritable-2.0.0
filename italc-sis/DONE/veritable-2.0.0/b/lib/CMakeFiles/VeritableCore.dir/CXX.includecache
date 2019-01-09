@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/npt/Desktop/veritable-2.0.0/b/lib/qrc_qt_qm.cxx
+QtCore/qglobal.h
+-
+
+/opt/mingw32/include/qt4/QtCore/qconfig.h
+
+/opt/mingw32/include/qt4/QtCore/qfeatures.h
+
+/opt/mingw32/include/qt4/QtCore/qglobal.h
+stddef.h
+-
+QtCore/qconfig.h
+-
+AvailabilityMacros.h
+-
+e32def.h
+-
+QtCore/qfeatures.h
+-
+

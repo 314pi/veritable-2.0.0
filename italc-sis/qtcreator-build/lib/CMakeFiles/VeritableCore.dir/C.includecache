@@ -1,0 +1,352 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Program Files (x86)/GnuWin32/include/jconfig.h
+windows.h
+-
+
+C:/Program Files (x86)/GnuWin32/include/jerror.h
+
+C:/Program Files (x86)/GnuWin32/include/jmorecfg.h
+
+C:/Program Files (x86)/GnuWin32/include/jpeglib.h
+jconfig.h
+C:/Program Files (x86)/GnuWin32/include/jconfig.h
+jmorecfg.h
+C:/Program Files (x86)/GnuWin32/include/jmorecfg.h
+jpegint.h
+C:/Program Files (x86)/GnuWin32/include/jpegint.h
+jerror.h
+C:/Program Files (x86)/GnuWin32/include/jerror.h
+
+C:/Program Files (x86)/GnuWin32/include/zconf.h
+windows.h
+-
+sys/types.h
+-
+unistd.h
+-
+unixio.h
+-
+
+C:/Program Files (x86)/GnuWin32/include/zlib.h
+zconf.h
+C:/Program Files (x86)/GnuWin32/include/zconf.h
+
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/common/lzoconf.h
+config.h
+-
+limits.h
+-
+stddef.h
+-
+lzodefs.h
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/common/lzodefs.h
+
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/common/lzodefs.h
+
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/common/minilzo.c
+config.h
+-
+limits.h
+-
+stddef.h
+-
+minilzo.h
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/common/minilzo.h
+lzo/lzoconf.h
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/common/lzo/lzoconf.h
+string.h
+-
+string.h
+-
+assert.h
+-
+unchecked.h
+-
+intrin.h
+-
+lzo/lzo1x.h
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/common/lzo/lzo1x.h
+intrin.h
+-
+
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/common/minilzo.h
+lzoconf.h
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/common/lzoconf.h
+
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/corre.c
+
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/cursor.c
+rfb/rfbclient.h
+-
+
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/hextile.c
+
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/listen.c
+unistd.h
+-
+sys/types.h
+-
+winsock2.h
+-
+sys/wait.h
+-
+sys/utsname.h
+-
+sys/time.h
+-
+rfb/rfbclient.h
+-
+
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/rfbproto.c
+unistd.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+errno.h
+-
+pwd.h
+-
+rfb/rfbclient.h
+-
+zlib.h
+-
+jpeglib.h
+-
+stdarg.h
+-
+time.h
+-
+gcrypt.h
+-
+minilzo.h
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/minilzo.h
+tls.h
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/tls.h
+VeritableRfbExt.h
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/VeritableRfbExt.h
+rre.c
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/rre.c
+corre.c
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/corre.c
+hextile.c
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/hextile.c
+ultra.c
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/ultra.c
+zlib.c
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/zlib.c
+tight.c
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/tight.c
+zrle.c
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/zrle.c
+rre.c
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/rre.c
+corre.c
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/corre.c
+hextile.c
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/hextile.c
+ultra.c
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/ultra.c
+zlib.c
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/zlib.c
+tight.c
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/tight.c
+zrle.c
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/zrle.c
+zrle.c
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/zrle.c
+rre.c
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/rre.c
+corre.c
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/corre.c
+hextile.c
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/hextile.c
+ultra.c
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/ultra.c
+zlib.c
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/zlib.c
+tight.c
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/tight.c
+zrle.c
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/zrle.c
+zrle.c
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/zrle.c
+zrle.c
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/zrle.c
+zrle.c
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/zrle.c
+vncauth.c
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/vncauth.c
+d3des.c
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/d3des.c
+
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/rre.c
+
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/sockets.c
+unistd.h
+-
+errno.h
+-
+fcntl.h
+-
+assert.h
+-
+rfb/rfbclient.h
+-
+winsock2.h
+-
+ws2tcpip.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+sys/un.h
+-
+netinet/tcp.h
+-
+arpa/inet.h
+-
+netdb.h
+-
+tls.h
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/tls.h
+
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/tight.c
+
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/tls.h
+
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/ultra.c
+
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/vncviewer.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+time.h
+-
+rfb/rfbclient.h
+-
+tls.h
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/tls.h
+winsock2.h
+-
+stdio.h
+-
+termios.h
+-
+
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/zlib.c
+
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/zrle.c
+zywrletemplate.c
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/ica/x11/libvncclient/zywrletemplate.c
+
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/../ica/x11/common/d3des.c
+d3des.h
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/../ica/x11/common/d3des.h
+
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/../ica/x11/common/d3des.h
+
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/../ica/x11/common/lzoconf.h
+config.h
+-
+limits.h
+-
+stddef.h
+-
+lzodefs.h
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/../ica/x11/common/lzodefs.h
+
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/../ica/x11/common/lzodefs.h
+
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/../ica/x11/common/minilzo.h
+lzoconf.h
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/../ica/x11/common/lzoconf.h
+
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/../ica/x11/common/vncauth.c
+sys/types.h
+-
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+rfb/rfbproto.h
+-
+d3des.h
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/../ica/x11/common/d3des.h
+string.h
+-
+math.h
+-
+sys/stat.h
+-
+time.h
+-
+sys/time.h
+-
+
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/../ica/x11/common/zywrletemplate.c
+
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/VeritableRfbExt.h
+rfb/rfbproto.h
+-
+rfb/rfbclient.h
+-
+
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/rfb/keysym.h
+
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/rfb/rfbclient.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+sys/time.h
+-
+unistd.h
+-
+rfb/rfbproto.h
+-
+rfb/keysym.h
+-
+gnutls/gnutls.h
+-
+
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/rfb/rfbint.h
+stdint.h
+-
+
+D:/quantrong/iTalc/veritable-2.0.0 - OpenInQt/lib/include/rfb/rfbproto.h
+sys/timeb.h
+-
+winsock.h
+-
+rfb/rfbconfig.h
+-
+rfb/rfbint.h
+-
+rfb/keysym.h
+-
+zlib.h
+-
+sys/time.h
+-
+netinet/in.h
+-
+
+rfb/rfbconfig.h
+

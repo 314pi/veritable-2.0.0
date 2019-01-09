@@ -1,0 +1,841 @@
+Determining if files arpa/inet.h exist failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj   -c /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:23: fatal error: arpa/inet.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <arpa/inet.h>
+
+
+int main(){return 0;}
+
+Determining if files netdb.h exist failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj   -c /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:19: fatal error: netdb.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <netdb.h>
+
+
+int main(){return 0;}
+
+Determining if files netinet/in.h exist failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj   -c /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:24: fatal error: netinet/in.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <netinet/in.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/ioctl.h exist failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj   -c /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:23: fatal error: sys/ioctl.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <sys/ioctl.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/socket.h exist failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj   -c /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:24: fatal error: sys/socket.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <sys/socket.h>
+
+
+int main(){return 0;}
+
+Determining if files syslog.h exist failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj   -c /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: syslog.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <syslog.h>
+
+
+int main(){return 0;}
+
+Determining if files pwd.h exist failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj   -c /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:17: fatal error: pwd.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <pwd.h>
+
+
+int main(){return 0;}
+
+Determining if files utmpx.h exist failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj   -c /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:19: fatal error: utmpx.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <utmpx.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/wait.h exist failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj   -c /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:22: fatal error: sys/wait.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <sys/wait.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/ipc.h exist failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj   -c /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:21: fatal error: sys/ipc.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <sys/ipc.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/shm.h exist failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj   -c /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:21: fatal error: sys/shm.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <sys/shm.h>
+
+
+int main(){return 0;}
+
+Determining if files dlfcn.h exist failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj   -c /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:19: fatal error: dlfcn.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <dlfcn.h>
+
+
+int main(){return 0;}
+
+Determining if files vfork.h exist failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj   -c /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:19: fatal error: vfork.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <vfork.h>
+
+
+int main(){return 0;}
+
+Determining if files linux/fb.h exist failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj   -c /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:22: fatal error: linux/fb.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <linux/fb.h>
+
+
+int main(){return 0;}
+
+Determining if files linux/input.h exist failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj   -c /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:25: fatal error: linux/input.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <linux/input.h>
+
+
+int main(){return 0;}
+
+Determining if files linux/uinput.h exist failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj   -c /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:26: fatal error: linux/uinput.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <linux/uinput.h>
+
+
+int main(){return 0;}
+
+Determining if files linux/videodev.h exist failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj   -c /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:28: fatal error: linux/videodev.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <linux/videodev.h>
+
+
+int main(){return 0;}
+
+Determining if the function geteuid exists failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=geteuid -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/opt/mingw32/bin/i686-w64-mingw32-gcc     -DCHECK_FUNCTION_EXISTS=geteuid   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj:CheckFunctionExists.c:(.text+0xc): undefined reference to `_geteuid'
+collect2: ld returned 1 exit status
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec.exe] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function gethostbyname exists failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=gethostbyname -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/opt/mingw32/bin/i686-w64-mingw32-gcc     -DCHECK_FUNCTION_EXISTS=gethostbyname   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj:CheckFunctionExists.c:(.text+0xc): undefined reference to `_gethostbyname'
+collect2: ld returned 1 exit status
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec.exe] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function gethostname exists failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=gethostname -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/opt/mingw32/bin/i686-w64-mingw32-gcc     -DCHECK_FUNCTION_EXISTS=gethostname   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj:CheckFunctionExists.c:(.text+0xc): undefined reference to `_gethostname'
+collect2: ld returned 1 exit status
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec.exe] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function getpwnam exists failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=getpwnam -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/opt/mingw32/bin/i686-w64-mingw32-gcc     -DCHECK_FUNCTION_EXISTS=getpwnam   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj:CheckFunctionExists.c:(.text+0xc): undefined reference to `_getpwnam'
+collect2: ld returned 1 exit status
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec.exe] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function getpwuid exists failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=getpwuid -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/opt/mingw32/bin/i686-w64-mingw32-gcc     -DCHECK_FUNCTION_EXISTS=getpwuid   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj:CheckFunctionExists.c:(.text+0xc): undefined reference to `_getpwuid'
+collect2: ld returned 1 exit status
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec.exe] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function getspnam exists failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=getspnam -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/opt/mingw32/bin/i686-w64-mingw32-gcc     -DCHECK_FUNCTION_EXISTS=getspnam   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj:CheckFunctionExists.c:(.text+0xc): undefined reference to `_getspnam'
+collect2: ld returned 1 exit status
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec.exe] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function getuid exists failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=getuid -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/opt/mingw32/bin/i686-w64-mingw32-gcc     -DCHECK_FUNCTION_EXISTS=getuid   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj:CheckFunctionExists.c:(.text+0xc): undefined reference to `_getuid'
+collect2: ld returned 1 exit status
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec.exe] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function grantpt exists failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=grantpt -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/opt/mingw32/bin/i686-w64-mingw32-gcc     -DCHECK_FUNCTION_EXISTS=grantpt   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj:CheckFunctionExists.c:(.text+0xc): undefined reference to `_grantpt'
+collect2: ld returned 1 exit status
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec.exe] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function inet_ntoa exists failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=inet_ntoa -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/opt/mingw32/bin/i686-w64-mingw32-gcc     -DCHECK_FUNCTION_EXISTS=inet_ntoa   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj:CheckFunctionExists.c:(.text+0xc): undefined reference to `_inet_ntoa'
+collect2: ld returned 1 exit status
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec.exe] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function initgroups exists failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=initgroups -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/opt/mingw32/bin/i686-w64-mingw32-gcc     -DCHECK_FUNCTION_EXISTS=initgroups   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj:CheckFunctionExists.c:(.text+0xc): undefined reference to `_initgroups'
+collect2: ld returned 1 exit status
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec.exe] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function mkfifo exists failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=mkfifo -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/opt/mingw32/bin/i686-w64-mingw32-gcc     -DCHECK_FUNCTION_EXISTS=mkfifo   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj:CheckFunctionExists.c:(.text+0xc): undefined reference to `_mkfifo'
+collect2: ld returned 1 exit status
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec.exe] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function mmap exists failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=mmap -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/opt/mingw32/bin/i686-w64-mingw32-gcc     -DCHECK_FUNCTION_EXISTS=mmap   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj:CheckFunctionExists.c:(.text+0xc): undefined reference to `_mmap'
+collect2: ld returned 1 exit status
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec.exe] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function select exists failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=select -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/opt/mingw32/bin/i686-w64-mingw32-gcc     -DCHECK_FUNCTION_EXISTS=select   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj:CheckFunctionExists.c:(.text+0xc): undefined reference to `_select'
+collect2: ld returned 1 exit status
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec.exe] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function seteuid exists failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=seteuid -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/opt/mingw32/bin/i686-w64-mingw32-gcc     -DCHECK_FUNCTION_EXISTS=seteuid   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj:CheckFunctionExists.c:(.text+0xc): undefined reference to `_seteuid'
+collect2: ld returned 1 exit status
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec.exe] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function setpgrp exists failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=setpgrp -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/opt/mingw32/bin/i686-w64-mingw32-gcc     -DCHECK_FUNCTION_EXISTS=setpgrp   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj:CheckFunctionExists.c:(.text+0xc): undefined reference to `_setpgrp'
+collect2: ld returned 1 exit status
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec.exe] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function setsid exists failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=setsid -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/opt/mingw32/bin/i686-w64-mingw32-gcc     -DCHECK_FUNCTION_EXISTS=setsid   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj:CheckFunctionExists.c:(.text+0xc): undefined reference to `_setsid'
+collect2: ld returned 1 exit status
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec.exe] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function setutxent exists failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=setutxent -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/opt/mingw32/bin/i686-w64-mingw32-gcc     -DCHECK_FUNCTION_EXISTS=setutxent   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj:CheckFunctionExists.c:(.text+0xc): undefined reference to `_setutxent'
+collect2: ld returned 1 exit status
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec.exe] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function socket exists failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=socket -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/opt/mingw32/bin/i686-w64-mingw32-gcc     -DCHECK_FUNCTION_EXISTS=socket   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj:CheckFunctionExists.c:(.text+0xc): undefined reference to `_socket'
+collect2: ld returned 1 exit status
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec.exe] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function uname exists failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=uname -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/opt/mingw32/bin/i686-w64-mingw32-gcc     -DCHECK_FUNCTION_EXISTS=uname   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj:CheckFunctionExists.c:(.text+0xc): undefined reference to `_uname'
+collect2: ld returned 1 exit status
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec.exe] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function waitpid exists failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=waitpid -I/opt/mingw32/include   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/opt/mingw32/bin/i686-w64-mingw32-gcc     -DCHECK_FUNCTION_EXISTS=waitpid   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.obj:CheckFunctionExists.c:(.text+0xc): undefined reference to `_waitpid'
+collect2: ld returned 1 exit status
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec.exe] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the Q_WS_X11 exist failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -I/opt/mingw32/include -I/opt/mingw32/include/qt4   -o CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj   -c /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:25: error: 'Q_WS_X11' undeclared (first use in this function)
+/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:25: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+File /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <QtCore/qglobal.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef Q_WS_X11
+  cmakeRequireSymbol(0,&Q_WS_X11);
+#endif
+  return 0;
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -I/opt/mingw32/include -I/opt/mingw32/include/qt4   -o CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj   -c /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:25: error: 'Q_WS_QWS' undeclared (first use in this function)
+/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:25: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+File /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <QtCore/qglobal.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef Q_WS_QWS
+  cmakeRequireSymbol(0,&Q_WS_QWS);
+#endif
+  return 0;
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj
+/opt/mingw32/bin/i686-w64-mingw32-gcc   -I/opt/mingw32/include -I/opt/mingw32/include/qt4   -o CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj   -c /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:25: error: 'Q_WS_MAC' undeclared (first use in this function)
+/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:25: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: Leaving directory `/home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+File /home/npt/Desktop/veritable-2.0.0/b/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <QtCore/qglobal.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef Q_WS_MAC
+  cmakeRequireSymbol(0,&Q_WS_MAC);
+#endif
+  return 0;
+}
+

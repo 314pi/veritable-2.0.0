@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This file was created by NSISDialogDesigner 0.9.14.0
+http://coolsoft.altervista.org/nsisdialogdesigner
+Do not edit manually!
+-->
+<Dialog Name="autoplayischool" Title="Cong cu tao ma so" Size="498, 316" Subtitle="Tao ma so cho phan mem iSchool">
+  <GroupBox Name="GroupBox1" Location="2, 3" Size="448, 221" Text="Cong cu tao ma ho tro" TabIndex="1">
+    <Button Name="taomaso" Location="20, 127" Size="166, 36" Text="Tao ma so" TabIndex="0" onClick="TaoKey_1" />
+    <TextBox Name="nhapmaso" Location="20, 49" Size="166, 20" TabIndex="1" />
+    <TextBox Name="masoxuat1" Location="243, 49" Size="164, 20" TabIndex="2" Style="WS_DISABLED" />
+    <TextBox Name="masoxuat2" Location="243, 145" Size="164, 20" TabIndex="2" Style="WS_DISABLED" />
+    <Label Name="Label3" Location="243, 117" Size="164, 20" Text="Ma so ho tro cap 2" TabIndex="3" />
+    <Label Name="Label2" Location="243, 21" Size="164, 20" Text="Ma so ho tro cap 1" TabIndex="3" />
+    <Label Name="Label1" Location="22, 21" Size="164, 20" Text="Nhap ma so nhan ho tro" TabIndex="3" />
+  </GroupBox>
+</Dialog>
